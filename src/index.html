@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>sense-logout</title>
-  <script src="./jump.js"></script>
-</head>
-<body>
-  <button>跳转登录页</button>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sense-logout</title>
+  </head>
+  <body>
+    <button id="btn">跳转登录页</button>
+    <script type="module">
+      import jumpLogin from "./index.min.js";
+      const btn = document.getElementById("btn");
+      btn.onclick = () => {
+        console.log(1);
+      };
+    </script>
+  </body>
 </html>

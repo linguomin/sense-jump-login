@@ -1,0 +1,33 @@
+{
+  "name": "sense-jump-login",
+  "version": "1.0.0",
+  "description": "根据请求返回的状态码跳转登录页",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "npm run babel && npm run uglifyjs",
+    "babel": "babel src/index.js -o dist/index.js",
+    "uglifyjs": "uglifyjs dist/index.js -m -c -o dist/index.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linguomin/sense-jump-login.git"
+  },
+  "keywords": [
+    "sense",
+    "401",
+    "jumplogin"
+  ],
+  "author": "linguomin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linguomin/sense-jump-login/issues"
+  },
+  "homepage": "https://github.com/linguomin/sense-jump-login#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "uglify-js": "^3.12.0"
+  }
+}
