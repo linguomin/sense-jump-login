@@ -21,4 +21,8 @@ npm install sense-jump-login
 import jumpLogin from 'sense-jump-login';
 ```
 
+axios.get().then().catch((err)=>{
+  jumpLogin(err);
+})
+
 ***插件如有bug请联系linguomin_sam@163.com***
