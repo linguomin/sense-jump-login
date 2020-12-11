@@ -1,6 +1,6 @@
 {
   "name": "sense-jump-login",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "根据请求返回的状态码跳转登录页",
   "main": "./dist/jump-login.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "jumplogin"
   ],
   "author": "linguomin",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/linguomin/sense-jump-login/issues"
   },
