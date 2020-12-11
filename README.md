@@ -10,10 +10,14 @@
 npm install sense-jump-login
 ```
 
-### 开发环境（linux）
+### 开发环境
 
-控制台输入命令python -m SimpleHTTPServer
+npm start
 启动服务
+
+### 编译
+
+npm run build
 
 ### 组件内引入
 
