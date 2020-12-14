@@ -1,6 +1,6 @@
 {
   "name": "sense-jump-login",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "根据请求返回的状态码跳转登录页",
   "main": "./src/js/jump-login.js",
   "scripts": {

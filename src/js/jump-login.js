@@ -1,7 +1,11 @@
-export default function jumpLogin(err) {
+export default function jumpLogin(err, jump) {
   if (err.response.status === 401) {
     sessionStorage.setItem("locationCache", window.location.href);
-    window.location.replace(err.response.data.authurl);
+    if (jump) {
+      window.location.replace(err.response.data.authurl);
+    } else {
+      location.reload();
+    }
   } else {
     return err;
   }

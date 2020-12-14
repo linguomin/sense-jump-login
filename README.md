@@ -26,7 +26,8 @@ import jumpLogin from 'sense-jump-login';
 ```
 
 axios.get().then().catch((err)=>{
-  jumpLogin(err);
+  jumpLogin(err); //刷新当前页面
+  jumpLogin(err, true); // 跳转登录页
 })
 
 ***插件如有bug请联系linguomin_sam@163.com***
